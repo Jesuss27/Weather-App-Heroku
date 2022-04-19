@@ -1,0 +1,51 @@
+{
+  "name": "newweatherapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "clone-response": "^1.0.2",
+    "cors": "^2.8.5",
+    "debug": "^2.6.9",
+    "decompress-response": "^3.3.0",
+    "dot-prop": "^5.3.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "glob-parent": "^5.1.2",
+    "is-extglob": "^2.1.1",
+    "is-fullwidth-code-point": "^3.0.0",
+    "is-glob": "^4.0.3",
+    "is-installed-globally": "^0.4.0",
+    "is-npm": "^5.0.0",
+    "is-number": "^7.0.0",
+    "is-obj": "^2.0.0",
+    "is-path-inside": "^3.0.3",
+    "is-typedarray": "^1.0.0",
+    "is-yarn-global": "^0.3.0",
+    "json-buffer": "^3.0.0",
+    "keyv": "^3.1.0",
+    "lowercase-keys": "^1.0.1",
+    "make-dir": "^3.1.0",
+    "media-typer": "^0.3.0",
+    "merge-descriptors": "^1.0.1",
+    "methods": "^1.1.2",
+    "mime": "^1.6.0",
+    "mime-db": "^1.52.0",
+    "mime-types": "^2.1.35",
+    "mimic-response": "^1.0.1",
+    "minimatch": "^3.1.2",
+    "minimist": "^1.2.6",
+    "ms": "^2.0.0",
+    "needle": "^2.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev" : "nodemon server"
+  },
+  "author": "",
+  "license": "ISC"
+}
